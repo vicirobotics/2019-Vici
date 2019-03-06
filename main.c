@@ -234,19 +234,6 @@ int main()
     create_drive_direct(-100,-100);
     wait_for_milliseconds(1000);
     create_stop();
-    //create_stop();
-    //set_servo_position(0,1049);
-    //set_servo_position(3,1330);
-    //wait_for_milliseconds(500);
-    //create_drive_direct(-100,-100);
-    //wait_for_milliseconds(6000);
-    //create_stop();
-    //create_drive_direct(100,100);
-    //wait_for_milliseconds(200);
-    //create_stop();
-    //msleep(500);
-    //create_drive_direct(100,-100);
-   // wait_for_milliseconds(800);
     create_stop();
     return 0;
 }
